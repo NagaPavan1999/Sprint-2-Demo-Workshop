@@ -1,0 +1,83 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "User navigates to Demo Web Shop home page and click on Login link",
+        "description": "",
+        "type": "background",
+        "keyword": "Background"
+      },
+      {
+        "line": 5,
+        "name": "− Successful login with valid login credentials",
+        "description": "Description: This feature will test successful login functionality",
+        "id": "login-action;−-successful-login-with-valid-login-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11398719700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is on login page",
+            "match": {
+              "location": "LoginSteps.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2278692300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters all the valid data",
+            "match": {
+              "location": "LoginSteps.user_enters_all_the_valid_data()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2340266700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click on Log in",
+            "match": {
+              "location": "LoginSteps.click_on_Log_in()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1334679800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "login should be successful",
+            "match": {
+              "location": "LoginSteps.login_should_be_successful()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@Successful_login"
+          }
+        ]
+      }
+    ],
+    "name": "Login Action",
+    "description": "",
+    "id": "login-action",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  }
+]
